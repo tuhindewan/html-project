@@ -75,10 +75,11 @@ background-attachment: fixed;
 -o-background-size: cover;
 background-size: cover;
 width: 100%;
+
 display: block;
 height: auto;
  padding-top:190px;
-   min-height:600px;
+   min-height:500px;
     
 }
 
@@ -118,4 +119,119 @@ padding: 5px;
 }
 .skill-div {
     margin-top:10px; 
+}
+
+#testimonial { 
+  
+    
+background: url(img/tuhin.JPG) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+   min-height:200px;
+    color:#fff;
+}
+
+#myCarousel{margin:20px;}
+.slide-custom {
+     min-height:200px;
+      padding:20px;
+       line-height:30px;
+}
+.user-img{
+    border: 2px solid #000;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    max-height: 70px;
+    max-width: 70px;
+}
+.name-set{
+font-style: italic;
+font-size: 20px;
+padding: 15px;
+color: black;
+}
+.round-body {
+display: table;
+width: 135px;
+height: 135px;
+margin: 0 auto 14px auto;
+border: 3px solid #000;
+border-radius: 100%;
+}
+.price-main {
+display: table-cell;
+font-size: 28px;
+font-weight: bold;
+text-transform: uppercase;
+vertical-align: middle;
+}
+.price-Unit {
+display: block;
+
+}
+
+small {
+    font-size:10px!important;
+    font-weight:normal;
+}
+.plan {
+padding: 0 0 15px 0;
+margin: 30px 0px;
+list-style: none;
+text-align: center;
+}
+.plan li {
+padding: 15px 0px;
+font-size: 16px;
+border-bottom: 1px dotted #e1e1e1;
+}
+.active-plan-price {
+    -webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-ms-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+}
+.qry {
+    background-color: #F3F3F3;
+    }
+    .cnt {
+width: 100%;
+min-height: 350px;
+border: 1px solid #e1e1e1;
+}
+.add {
+    color:#000;
+    font-size:25px;
+    font-weight:900;
+    padding:20px 10px 20px 5px;
+}
+.footer {
+background-color: #FFFFFF;
+color: #000;
+padding: 20px 50px 20px 50px;
+text-align: right;
+border-top: 1px solid #d6d6d6;
+color: red;
+}
+
+
+
+
+@media all and (max-width:640px) and (min-width:381px) {
+    .head-main { 
+        font-size:28px ;
+    }
+}
+@media all and (max-width:381px) and (min-width:200px) {
+    .head-main { 
+        font-size:28px ;
+    }
 }
